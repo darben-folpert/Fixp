@@ -14,7 +14,6 @@ using Common.Services;
 //using System.Windows.Media.Imaging;
 //using System.Windows.Shapes;
 
-
 namespace FindXmlPathsWpf
 {
     public partial class FindMissingsInFileView : Window
