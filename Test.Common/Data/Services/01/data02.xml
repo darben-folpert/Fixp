@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LegalEntityExtenedStructure>
+<LegalEntityName>
+<FirstPart>Sabiedrība ar ierobežotu atbildību</FirstPart>
+<ShortName>Latvijas Uzņēmējdarbības un menedžmenta akadēmija</ShortName>
+<NotQuoted>false</NotQuoted>
+<NameRegistered>Sabiedrība ar ierobežotu atbildību &quot;Latvijas Uzņēmējdarbības un menedžmenta akadēmija&quot;</NameRegistered>
+</LegalEntityName>
+<RegNo>
+<Number>000305912</Number>
+<UnifiedRegNumber>40003059125</UnifiedRegNumber>
+<SEPAId>LV51ZZZ40003059125</SEPAId>
+</RegNo>
+<LegalAddress>
+<ARCode>101984047</ARCode>
+<AddressRegistered>Rīga, Salaspils iela 14</AddressRegistered>
+<PostIndex>LV1057</PostIndex>
+</LegalAddress>
+<ReregistrationDate>2004-01-06</ReregistrationDate>
+<ShareHolderList>
+<ShareHolder>
+<RecordNumber>90046643</RecordNumber>
+<Title>BALTIJAS STARPTAUTISKĀ BIRŽAS AKADĒMIJA Sabiedrība</Title>
+<LegalPerson>
+<LatvianEnterprise>
+<LegalEntityName>
+<FirstPart>Sabiedrība ar ierobežotu atbildību</FirstPart>
+<ShortName>BALTIJAS STARPTAUTISKĀ BIRŽAS AKADĒMIJA</ShortName>
+<NotQuoted>true</NotQuoted>
+<NameRegistered>Sabiedrība ar ierobežotu atbildību &quot;BALTIJAS STARPTAUTISKĀ BIRŽAS AKADĒMIJA&quot;</NameRegistered>
+</LegalEntityName>
+<LegalAddress>
+<ARCode>101984047</ARCode>
+<AddressRegistered>Rīga, Salaspils iela 14</AddressRegistered>
+</LegalAddress>
+<DateRegistered>1991-11-11</DateRegistered>
+<ExclusionDate>2003-02-19</ExclusionDate>
+<LegalForm CodeListCodeValue="SIA">Sabiedrība ar ierobežotu atbildību</LegalForm>
+<Register CodeListCodeValue="U">Uzņēmumu reģistrs</Register>
+</LatvianEnterprise>
+</LegalPerson>
+<TerminationDate>1995-08-25</TerminationDate>
+<DateRecordRegistered>1992-03-19</DateRecordRegistered>
+<LastChangeDateTime>1995-08-25T00:00:00Z</LastChangeDateTime>
+</ShareHolder>
+</ShareHolderList>
+</LegalEntityExtenedStructure>

@@ -1,0 +1,18 @@
++ Redefine todo list
+  -> things below might not be applicable anymore
+
+=====
+
+
+!!! 1) Refactor methods in MethodsNeeded.txt !!!
+    -> see end of this file, there's a dependency to resolve
+       (reference to a method from another class)
+
+
+Methods needed to process missing xml paths in one file:
+
+  - FileContentSeeker.GenerateListOfMissingsInFile
+    (generate the list of missing xml paths in the file) -> final result we want
+    -> use encapsulation of collection (return unmodifiable collection)
+
+    -> cf file MethodsNeeded.txt for dependencies

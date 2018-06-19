@@ -1,0 +1,10 @@
+Existing paths:
+LegalEntityExtenedStructure/OfficialList/Official/NaturalPerson/AddressCommon/ForeignAddress/Country
+LegalEntityExtenedStructure/ChangesRecordList/ChangesRecord/ChangeForm
+LegalEntityExtenedStructure/LegalAddress/ARCode
+
+Not existing paths
+LegalEntityExtenedStructure/OfficialList/Official/NaturalPerson/AddressCommon/ForeignAddress/Bullshit
+LegalEntityStructure/OfficialList/Official/NaturalPerson/AddressCommon/ForeignAddress/Country
+LegalEntityStructure/OfficialList/Official/NaturalPerson/Nothing
+

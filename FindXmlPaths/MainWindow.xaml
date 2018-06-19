@@ -1,0 +1,21 @@
+﻿<Window x:Class="FindXmlPathsWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="FindXmlPaths v0.1" Height="480" Width="640"
+        ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
+    <Grid Margin="15" Background="Beige">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+        
+        <Button Content="Find xml paths in every file from a folder" Grid.Row="0"
+                Name="btnSearchInFolder"
+                Click="btnSearchInFolder_Click"/>
+
+        <Button Content="Find missing xml paths in one given file" Grid.Row="2"
+                Name="btnFindMissingsInFile"
+                Click="btnFindMissingsInFile_Click"/>
+    </Grid>
+</Window>

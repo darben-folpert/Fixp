@@ -1,0 +1,123 @@
+public List<string> GenerateListOfMissingsInFile(string fileName, string xmlPathsFileName)
+{
+    var listOfPaths = LoadXmlPathsFile(xmlPathsFileName);
+    if (listOfPaths == null)
+        return null;
+
+    errorMessages = new List<string>();
+    var listOfMissings = new List<string>();
+    foreach (var xmlPath in listOfPaths)
+    {
+        var rawPath = FormatPathFromListToRaw(xmlPath);
+        if (!XmlFileContainsElement(fileName, xmlPath))
+            listOfMissings.Add(rawPath);
+    }
+
+    return listOfMissings;
+}
+
+
+List<List<string>> LoadXmlPathsFile(string fileName)
+{
+    if (!File.Exists(fileName))
+    {
+        Console.WriteLine("Error while reading the xml paths file: File not found");
+        Console.WriteLine("File name specified:\n{0}", fileName);
+        return null;
+    }
+
+
+    var knownRawPaths = new List<string>();
+    var listOfPaths = new List<List<string>>();
+
+    try
+    {
+        var listOfRawPaths = File.ReadAllLines(fileName).ToList();
+
+        // refactor this part
+        // 1) maybe this loop doesn't need to be inside try (maybe yes)
+        // 2) can maybe put this loop into some method
+        foreach (var oneRawPath in listOfRawPaths)
+        {
+            if (!knownRawPaths.Contains(oneRawPath) &&
+                oneRawPath.Length > 1)
+            {
+                var oneFormattedPath = FormatPathFromRawToList(oneRawPath);
+                listOfPaths.Add(oneFormattedPath);
+            }
+        }
+        return listOfPaths;
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine("Error while reading xml paths file");
+        Console.WriteLine(ex.Message);
+        return null;
+    }
+}
+
+
+List<string> FormatPathFromRawToList(string rawPath)
+{
+    var tab = rawPath.Split('/');
+    return tab.ToList();
+}
+
+
+string FormatPathFromListToRaw(List<string> pathAsList)
+{
+    var rawPath = "";
+    bool first = true;
+
+    foreach (var oneLevelInPath in pathAsList)
+    {
+        if (first)
+        {
+            rawPath = oneLevelInPath;
+            first = false;
+        }
+        else
+            rawPath = string.Format("{0}/{1}", rawPath, oneLevelInPath);
+    }
+    return rawPath;
+}
+
+
+bool XmlFileContainsElement(string fileName, List<string> xmlPath)
+{
+    if (!File.Exists(fileName))
+    {
+        var errorMessage = "The specified file doesn't exist !";
+        errorMessage = string.Format("{0}\nFile not found: {1}", errorMessage, fileName);
+        throw new Exception(errorMessage);
+    }
+
+    var loadedXml = LightXmlFileLoader.LoadXmlFile(fileName);
+
+    var xmlPathFound = FindPathThroughChildren
+        (loadedXml.RootElement, loadedXml.RootElement, xmlPath);
+
+    return xmlPathFound;
+}
+
+
+bool FindPathThroughChildren(LightXmlNode parentNode, LightXmlNode rootNode, List<string> xmlPathToFind)
+{
+    foreach (var childNode in parentNode.ChildNodes)
+    {
+        var xmlPath = BuildXmlPath(childNode, rootNode);
+        if (ListsAreEquals(xmlPath, xmlPathToFind))
+            return true;
+
+        var xmlPathFound = FindPathThroughChildren(childNode, rootNode, xmlPathToFind);
+        if (xmlPathFound)
+            return true;
+    }
+    return false;
+}
+
+
+    // need to find correspondance for following call
+    var loadedXml = LightXmlFileLoader.LoadXmlFile(fileName);
+
+

@@ -1,0 +1,20 @@
+﻿<Window x:Class="FindXmlPathsWpf.SearchInFolder"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Find xml paths in folder" Height="300" Width="640"
+        ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
+    <Grid Margin="10">
+        <StackPanel Orientation="Vertical" Background="AliceBlue">
+            <TextBlock>
+                Folder to scan
+            </TextBlock>
+            <TextBox Name="txtInputFolder"/>
+            <Button Margin="140, 30, 140, 0"
+                    Name="btnProcess"
+                    Height="40"
+                    Click="btnProcess_Click">
+                Process
+            </Button>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ur:LegalEntityExtenedStructure
+xsi:schemaLocation="http://ivis.eps.gov.lv/XMLSchemas/100679/URTypes/v1-0 http://ivis.eps.gov.lv/XMLSchemas/100679/URTypes/v1-0/URCommonTypes.xsd" 
+xmlns:ivis="http://ivis.eps.gov.lv/XMLSchemas/100001/IVIS/v1-0"
+xmlns:pers="http://ivis.eps.gov.lv/XMLSchemas/100001/Person/v1-0"
+xmlns:document="http://ivis.eps.gov.lv/XMLSchemas/100001/Document/v1-0"
+xmlns:unece_cs="http://ivis.eps.gov.lv/XMLSchemas/100009/UNeDocs/v0-3"
+xmlns:ur="http://ivis.eps.gov.lv/XMLSchemas/100679/URTypes/v1-0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ur:LegalEntityName>
+<ur:FirstPart>Sabiedrība ar ierobežotu atbildību</ur:FirstPart>
+<ur:ShortName>Lat Eco House</ur:ShortName>
+<ur:NotQuoted>false</ur:NotQuoted>
+<ur:NameRegistered>Sabiedrība ar ierobežotu atbildību &quot;Lat Eco House&quot;</ur:NameRegistered>
+</ur:LegalEntityName>
+<ur:RegNo>
+<ur:Number>010340086</ur:Number>
+<ur:UnifiedRegNumber>40103400869</ur:UnifiedRegNumber>
+<ur:SEPAId>LV35ZZZ40103400869</ur:SEPAId>
+</ur:RegNo>
+<ur:LegalAddress>
+<ur:ARCode>112741808</ur:ARCode>
+<ur:AddressRegistered>Rīga, Čiekurkalna 3. šķērslīnija 30-3</ur:AddressRegistered>
+<ur:PostIndex>LV1026</ur:PostIndex>
+</ur:LegalAddress>
+<ur:DateRegistered>2011-03-31</ur:DateRegistered>
+<ur:LastChangeDateTime>2014-08-05T11:03:47Z</ur:LastChangeDateTime>
+<ur:LegalForm CodeListCodeValue="SIA">Sabiedrība ar ierobežotu atbildību</ur:LegalForm>
+<ur:Register CodeListCodeValue="K">Komercreģistrs</ur:Register>
+<ur:FixedCapital>
+<ur:Registered>
+<ur:RecordNumber>92194854</ur:RecordNumber>
+<ur:Amount>
+<ur:Sum>2</ur:Sum>
+<ur:Currency ivis:CodeListAgencyID="100009" ivis:CodeListID="ISO4217" ivis:CodeListVersionID="0.3">EUR</ur:Currency>
+</ur:Amount>
+<ur:RegisteredDate>2014-07-11</ur:RegisteredDate>
+</ur:Registered>
+<ur:Paid>
+<ur:RecordNumber>92194855</ur:RecordNumber>
+<ur:Amount>
+<ur:Sum>2</ur:Sum>
+<ur:Currency ivis:CodeListAgencyID="100009" ivis:CodeListID="ISO4217" ivis:CodeListVersionID="0.3">EUR</ur:Currency>
+</ur:Amount>
+<ur:RegisteredDate>2014-07-11</ur:RegisteredDate>
+</ur:Paid>
+</ur:FixedCapital>
+<ur:OtherCapitalList>
+<ur:OtherCapital>
+<ur:RecordNumber>92041131</ur:RecordNumber>
+<ur:Amount>
+<ur:Sum>2</ur:Sum>
+<ur:Currency ivis:CodeListAgencyID="100009" ivis:CodeListID="ISO4217" ivis:CodeListVersionID="0.3">LVL</ur:Currency>
+</ur:Amount>
+<ur:CapitalForm CodeListCodeValue="APM">Apmaksātais pamatkapitāls</ur:CapitalForm>
+<ur:RegistrationDate>2011-03-31</ur:RegistrationDate>
+<ur:TerminationDate>2014-07-11</ur:TerminationDate>
+<ur:LastChangeDateTime>2014-07-11T10:27:41Z</ur:LastChangeDateTime>
+</ur:OtherCapital>
+<ur:OtherCapital>
+<ur:RecordNumber>92041132</ur:RecordNumber>
+<ur:Amount>
+<ur:Sum>2</ur:Sum>
+<ur:Currency ivis:CodeListAgencyID="100009" ivis:CodeListID="ISO4217" ivis:CodeListVersionID="0.3">LVL</ur:Currency>
+</ur:Amount>
+<ur:CapitalForm CodeListCodeValue="REG">Reģistrētais pamatkapitāls</ur:CapitalForm>
+<ur:RegistrationDate>2011-03-31</ur:RegistrationDate>
+<ur:TerminationDate>2014-07-11</ur:TerminationDate>
+<ur:LastChangeDateTime>2014-07-11T10:27:41Z</ur:LastChangeDateTime>
+</ur:OtherCapital>
+</ur:OtherCapitalList>
+<ur:ReregistrationDate>2011-03-31</ur:ReregistrationDate>
+<ur:LimitedPartnerInvestment>
+<ur:Sum>2</ur:Sum>
+<ur:Currency ivis:CodeListAgencyID="100009" ivis:CodeListID="ISO4217" ivis:CodeListVersionID="0.3">EUR</ur:Currency>
+<ur:Count>
+2</ur:Count>
+<ur:Value>
+<ur:Sum>1</ur:Sum>
+<ur:Currency ivis:CodeListAgencyID="100009" ivis:CodeListID="ISO4217" ivis:CodeListVersionID="0.3">EUR</ur:Currency>
+</ur:Value>
+</ur:LimitedPartnerInvestment>
+<ur:AnnualReviewList>
+<ur:AnnualReview>
+<ur:RecordNumber>877847</ur:RecordNumber>
+<ur:VIDId>990609815</ur:VIDId>
+<ur:RecievedDate>2012-04-28</ur:RecievedDate>
+<ur:DateFrom>2011-03-31</ur:DateFrom>
+<ur:DateTill>2011-12-31</ur:DateTill>
+<ur:Reciever>VID</ur:Reciever>
+<ur:LastChangeDateTime>2012-04-28T14:06:46Z</ur:LastChangeDateTime>
+</ur:AnnualReview>
+<ur:AnnualReview>
+<ur:RecordNumber>1013955</ur:RecordNumber>
+<ur:VIDId>990764988</ur:VIDId>
+<ur:RecievedDate>2013-05-04</ur:RecievedDate>
+<ur:DateFrom>2012-01-01</ur:DateFrom>
+<ur:DateTill>2012-12-31</ur:DateTill>
+<ur:Reciever>VID</ur:Reciever>
+<ur:LastChangeDateTime>2013-05-04T20:44:07Z</ur:LastChangeDateTime>
+</ur:AnnualReview>
+<ur:AnnualReview>
+<ur:RecordNumber>1083789</ur:RecordNumber>
+<ur:VIDId>990938644</ur:VIDId>
+<ur:RecievedDate>2014-04-15</ur:RecievedDate>
+<ur:DateFrom>2013-01-01</ur:DateFrom>
+<ur:DateTill>2013-12-31</ur:DateTill>
+<ur:Reciever>VID</ur:Reciever>
+<ur:LastChangeDateTime>2014-04-15T10:38:30Z</ur:LastChangeDateTime>
+</ur:AnnualReview>
+</ur:AnnualReviewList>
+<ur:OfficialList>
+<ur:Official>
+<ur:RecordNumber>91078750</ur:RecordNumber>
+<ur:NaturalPerson>
+<ur:PersonFullName>
+<pers:LastName>Titova</pers:LastName>
+<pers:FirstName>Diana</pers:FirstName>
+</ur:PersonFullName>
+<ur:PersonCode>29037412981</ur:PersonCode>
+<ur:AddressCommon>
+<ur:ForeignAddress>
+<ur:Country CodeListCodeValue="RU">Krievijas Federācija</ur:Country>
+</ur:ForeignAddress>
+</ur:AddressCommon>
+</ur:NaturalPerson>
+<ur:Institution CodeListCodeValue="VAL">Valde</ur:Institution>
+<ur:Position CodeListCodeValue="VLO">Valdes loceklis</ur:Position>
+<ur:RepresentationMode CodeListCodeValue="1">Tiesības pārstāvēt atsevišķi</ur:RepresentationMode>
+<ur:RegistrationDate>2011-03-31</ur:RegistrationDate>
+<ur:TerminationDate>2011-10-27</ur:TerminationDate>
+<ur:DateRecordRegistered>2011-03-31</ur:DateRecordRegistered>
+<ur:Description>Ziņas par personas dzīvesvietas adresi izslēgtas 01.07.2011., pamatojoties uz Komerclikuma Pārejas noteikumu 23.punktu.</ur:Description>
+<ur:LastChangeDateTime>2011-10-27T11:08:22Z</ur:LastChangeDateTime>
+</ur:Official>
+<ur:Official>
+<ur:RecordNumber>91116123</ur:RecordNumber>
+<ur:NaturalPerson>
+<ur:PersonFullName>
+<pers:LastName>Stikāne</pers:LastName>
+<pers:FirstName>Anita</pers:FirstName>
+</ur:PersonFullName>
+<ur:PersonCode>30126110131</ur:PersonCode>
+<ur:AddressCommon>
+<ur:ForeignAddress>
+<ur:Country CodeListCodeValue="LV">Latvijas Republika</ur:Country>
+</ur:ForeignAddress>
+</ur:AddressCommon>
+</ur:NaturalPerson>
+<ur:Institution CodeListCodeValue="VAL">Valde</ur:Institution>
+<ur:Position CodeListCodeValue="VLO">Valdes loceklis</ur:Position>
+<ur:RepresentationMode CodeListCodeValue="1">Tiesības pārstāvēt atsevišķi</ur:RepresentationMode>
+<ur:RegistrationDate>2011-10-27</ur:RegistrationDate>
+<ur:TerminationDate>2014-07-11</ur:TerminationDate>
+<ur:MeetingProtocolDate>2011-10-21</ur:MeetingProtocolDate>
+<ur:DateRecordRegistered>2011-10-27</ur:DateRecordRegistered>
+<ur:LastChangeDateTime>2014-07-11T10:27:41Z</ur:LastChangeDateTime>
+</ur:Official>
+<ur:Official>
+<ur:RecordNumber>91286333</ur:RecordNumber>
+<ur:NaturalPerson>
+<ur:PersonFullName>
+<pers:LastName>Seržants</pers:LastName>
+<pers:FirstName>Dainis</pers:FirstName>
+</ur:PersonFullName>
+<ur:PersonCode>25036911422</ur:PersonCode>
+<ur:AddressCommon>
+<ur:ForeignAddress>
+<ur:Country CodeListCodeValue="LV">Latvijas Republika</ur:Country>
+</ur:ForeignAddress>
+</ur:AddressCommon>
+</ur:NaturalPerson>
+<ur:Institution CodeListCodeValue="VAL">Valde</ur:Institution>
+<ur:Position CodeListCodeValue="VLO">Valdes loceklis</ur:Position>
+<ur:RepresentationMode CodeListCodeValue="1">Tiesības pārstāvēt atsevišķi</ur:RepresentationMode>
+<ur:RegistrationDate>2014-07-11</ur:RegistrationDate>
+<ur:TerminationDate>2014-08-05</ur:TerminationDate>
+<ur:MeetingProtocolDate>2014-07-01</ur:MeetingProtocolDate>
+<ur:DateRecordRegistered>2014-07-11</ur:DateRecordRegistered>
+<ur:LastChangeDateTime>2014-08-05T11:03:47Z</ur:LastChangeDateTime>
+</ur:Official>
+<ur:Official>
+<ur:RecordNumber>91289931</ur:RecordNumber>
+<ur:NaturalPerson>
+<ur:PersonFullName>
+<pers:LastName>Ozoliņa</pers:LastName>
+<pers:FirstName>Skaidrīte</pers:FirstName>
+</ur:PersonFullName>
+<ur:PersonCode>29054012760</ur:PersonCode>
+<ur:AddressCommon>
+<ur:ForeignAddress>
+<ur:Country CodeListCodeValue="LV">Latvijas Republika</ur:Country>
+</ur:ForeignAddress>
+</ur:AddressCommon>
+</ur:NaturalPerson>
+<ur:Institution CodeListCodeValue="VAL">Valde</ur:Institution>
+<ur:Position CodeListCodeValue="VLO">Valdes loceklis</ur:Position>
+<ur:RepresentationMode CodeListCodeValue="1">Tiesības pārstāvēt atsevišķi</ur:RepresentationMode>
+<ur:RegistrationDate>2014-08-05</ur:RegistrationDate>
+<ur:MeetingProtocolDate>2014-07-20</ur:MeetingProtocolDate>
+<ur:DateRecordRegistered>2014-08-05</ur:DateRecordRegistered>
+<ur:LastChangeDateTime>2014-08-05T11:03:47Z</ur:LastChangeDateTime>
+</ur:Official>
+<ur:Official>
+<ur:RecordNumber>91078746</ur:RecordNumber>
+<ur:NaturalPerson>
+<ur:PersonFullName>
+<pers:LastName>Malvesa</pers:LastName>
+<pers:FirstName>Rita</pers:FirstName>
+</ur:PersonFullName>
+<ur:PersonCode>21057510419</ur:PersonCode>
+<ur:AddressCommon>
+<ur:LatvianAddress>
+<ur:ARCode>100000000</ur:ARCode>
+</ur:LatvianAddress>
+</ur:AddressCommon>
+</ur:NaturalPerson>
+<ur:Institution CodeListCodeValue="VAL">Valde</ur:Institution>
+<ur:Position CodeListCodeValue="VLO">Valdes loceklis</ur:Position>
+<ur:RepresentationMode CodeListCodeValue="1">Tiesības pārstāvēt atsevišķi</ur:RepresentationMode>
+<ur:RegistrationDate>2011-03-31</ur:RegistrationDate>
+<ur:TerminationDate>2011-10-27</ur:TerminationDate>
+<ur:DateRecordRegistered>2011-03-31</ur:DateRecordRegistered>
+<ur:Description>Ziņas par personas dzīvesvietas adresi izslēgtas 01.07.2011., pamatojoties uz Komerclikuma Pārejas noteikumu 23.punktu.</ur:Description>
+<ur:LastChangeDateTime>2011-10-27T11:08:22Z</ur:LastChangeDateTime>
+</ur:Official>
+</ur:OfficialList>
+<ur:ShareHolderList>
+<ur:ShareHolder>
+<ur:RecordNumber>92262535</ur:RecordNumber>
+<ur:Title>Ozoliņa Skaidrīte</ur:Title>
+<ur:NaturalPerson>
+<ur:PersonFullName>
+<pers:LastName>Ozoliņa</pers:LastName>
+<pers:FirstName>Skaidrīte</pers:FirstName>
+</ur:PersonFullName>
+<ur:PersonCode>29054012760</ur:PersonCode>
+<ur:AddressCommon>
+<ur:ForeignAddress>
+<ur:Country CodeListCodeValue="LV">Latvijas Republika</ur:Country>
+</ur:ForeignAddress>
+</ur:AddressCommon>
+</ur:NaturalPerson>
+<ur:RegistrationDate>2014-07-20</ur:RegistrationDate>
+<ur:IsResponsible>false</ur:IsResponsible>
+<ur:DateRecordRegistered>2014-08-05</ur:DateRecordRegistered>
+<ur:LastChangeDateTime>2014-08-05T11:03:47Z</ur:LastChangeDateTime>
+<ur:Share>
+<ur:Count>2</ur:Count>
+<ur:Value>
+<ur:Sum>1</ur:Sum>
+<ur:Currency ivis:CodeListAgencyID="100009" ivis:CodeListID="ISO4217" ivis:CodeListVersionID="0.3">EUR</ur:Currency>
+</ur:Value>
+<ur:Total>
+<ur:Sum>2</ur:Sum>
+<ur:Currency ivis:CodeListAgencyID="100009" ivis:CodeListID="ISO4217" ivis:CodeListVersionID="0.3">EUR</ur:Currency>
+</ur:Total>
+<ur:Percentage>100</ur:Percentage>
+</ur:Share>
+</ur:ShareHolder>
+<ur:ShareHolder>
+<ur:RecordNumber>92257481</ur:RecordNumber>
+<ur:Title>Seržants Dainis</ur:Title>
+<ur:NaturalPerson>
+<ur:PersonFullName>
+<pers:LastName>Seržants</pers:LastName>
+<pers:FirstName>Dainis</pers:FirstName>
+</ur:PersonFullName>
+<ur:PersonCode>25036911422</ur:PersonCode>
+<ur:AddressCommon>
+<ur:ForeignAddress>
+<ur:Country CodeListCodeValue="LV">Latvijas Republika</ur:Country>
+</ur:ForeignAddress>
+</ur:AddressCommon>
+</ur:NaturalPerson>
+<ur:RegistrationDate>2014-07-01</ur:RegistrationDate>
+<ur:IsResponsible>false</ur:IsResponsible>
+<ur:TerminationDate>2014-07-20</ur:TerminationDate>
+<ur:CancellationDate>2014-08-05</ur:CancellationDate>
+<ur:DateRecordRegistered>2014-07-11</ur:DateRecordRegistered>
+<ur:LastChangeDateTime>2014-08-05T11:03:47Z</ur:LastChangeDateTime>
+<ur:Share>
+<ur:Count>1</ur:Count>
+<ur:Value>
+<ur:Sum>1</ur:Sum>
+<ur:Currency ivis:CodeListAgencyID="100009" ivis:CodeListID="ISO4217" ivis:CodeListVersionID="0.3">EUR</ur:Currency>
+</ur:Value>
+<ur:Total>
+<ur:Sum>1</ur:Sum>
+<ur:Currency ivis:CodeListAgencyID="100009" ivis:CodeListID="ISO4217" ivis:CodeListVersionID="0.3">EUR</ur:Currency>
+</ur:Total>
+<ur:Percentage>50</ur:Percentage>
+</ur:Share>
+</ur:ShareHolder>
+<ur:ShareHolder>
+<ur:RecordNumber>92257482</ur:RecordNumber>
+<ur:Title>Ozoliņa Skaidrīte</ur:Title>
+<ur:NaturalPerson>
+<ur:PersonFullName>
+<pers:LastName>Ozoliņa</pers:LastName>
+<pers:FirstName>Skaidrīte</pers:FirstName>
+</ur:PersonFullName>
+<ur:PersonCode>29054012760</ur:PersonCode>
+<ur:AddressCommon>
+<ur:ForeignAddress>
+<ur:Country CodeListCodeValue="LV">Latvijas Republika</ur:Country>
+</ur:ForeignAddress>
+</ur:AddressCommon>
+</ur:NaturalPerson>
+<ur:RegistrationDate>2014-07-01</ur:RegistrationDate>
+<ur:IsResponsible>false</ur:IsResponsible>
+<ur:TerminationDate>2014-07-20</ur:TerminationDate>
+<ur:CancellationDate>2014-08-05</ur:CancellationDate>
+<ur:DateRecordRegistered>2014-07-11</ur:DateRecordRegistered>
+<ur:LastChangeDateTime>2014-08-05T11:03:47Z</ur:LastChangeDateTime>
+<ur:Share>
+<ur:Count>1</ur:Count>
+<ur:Value>
+<ur:Sum>1</ur:Sum>
+<ur:Currency ivis:CodeListAgencyID="100009" ivis:CodeListID="ISO4217" ivis:CodeListVersionID="0.3">EUR</ur:Currency>
+</ur:Value>
+<ur:Total>
+<ur:Sum>1</ur:Sum>
+<ur:Currency ivis:CodeListAgencyID="100009" ivis:CodeListID="ISO4217" ivis:CodeListVersionID="0.3">EUR</ur:Currency>
+</ur:Total>
+<ur:Percentage>50</ur:Percentage>
+</ur:Share>
+</ur:ShareHolder>
+<ur:ShareHolder>
+<ur:RecordNumber>92106078</ur:RecordNumber>
+<ur:Title>Stikāne Anita</ur:Title>
+<ur:NaturalPerson>
+<ur:PersonFullName>
+<pers:LastName>Stikāne</pers:LastName>
+<pers:FirstName>Anita</pers:FirstName>
+</ur:PersonFullName>
+<ur:PersonCode>30126110131</ur:PersonCode>
+<ur:AddressCommon>
+<ur:ForeignAddress>
+<ur:Country CodeListCodeValue="LV">Latvijas Republika</ur:Country>
+</ur:ForeignAddress>
+</ur:AddressCommon>
+</ur:NaturalPerson>
+<ur:RegistrationDate>2011-10-21</ur:RegistrationDate>
+<ur:IsResponsible>false</ur:IsResponsible>
+<ur:TerminationDate>2014-07-01</ur:TerminationDate>
+<ur:CancellationDate>2014-07-11</ur:CancellationDate>
+<ur:DateRecordRegistered>2011-10-27</ur:DateRecordRegistered>
+<ur:LastChangeDateTime>2014-07-11T10:27:41Z</ur:LastChangeDateTime>
+<ur:Share>
+<ur:Count>2</ur:Count>
+<ur:Value>
+<ur:Sum>1</ur:Sum>
+<ur:Currency ivis:CodeListAgencyID="100009" ivis:CodeListID="ISO4217" ivis:CodeListVersionID="0.3">LVL</ur:Currency>
+</ur:Value>
+<ur:Total>
+<ur:Sum>2</ur:Sum>
+<ur:Currency ivis:CodeListAgencyID="100009" ivis:CodeListID="ISO4217" ivis:CodeListVersionID="0.3">LVL</ur:Currency>
+</ur:Total>
+<ur:Percentage>100</ur:Percentage>
+</ur:Share>
+</ur:ShareHolder>
+<ur:ShareHolder>
+<ur:RecordNumber>92079790</ur:RecordNumber>
+<ur:Title>Titova Diana</ur:Title>
+<ur:NaturalPerson>
+<ur:PersonFullName>
+<pers:LastName>Titova</pers:LastName>
+<pers:FirstName>Diana</pers:FirstName>
+</ur:PersonFullName>
+<ur:PersonCode>29037412981</ur:PersonCode>
+<ur:AddressCommon>
+<ur:ForeignAddress>
+<ur:Country CodeListCodeValue="RU">Krievijas Federācija</ur:Country>
+</ur:ForeignAddress>
+</ur:AddressCommon>
+</ur:NaturalPerson>
+<ur:RegistrationDate>2011-03-31</ur:RegistrationDate>
+<ur:IsResponsible>false</ur:IsResponsible>
+<ur:TerminationDate>2011-10-21</ur:TerminationDate>
+<ur:CancellationDate>2011-10-27</ur:CancellationDate>
+<ur:DateRecordRegistered>2011-03-31</ur:DateRecordRegistered>
+<ur:LastChangeDateTime>2011-10-27T11:08:22Z</ur:LastChangeDateTime>
+<ur:Share>
+<ur:Count>1</ur:Count>
+<ur:Value>
+<ur:Sum>1</ur:Sum>
+<ur:Currency ivis:CodeListAgencyID="100009" ivis:CodeListID="ISO4217" ivis:CodeListVersionID="0.3">LVL</ur:Currency>
+</ur:Value>
+<ur:Total>
+<ur:Sum>1</ur:Sum>
+<ur:Currency ivis:CodeListAgencyID="100009" ivis:CodeListID="ISO4217" ivis:CodeListVersionID="0.3">LVL</ur:Currency>
+</ur:Total>
+<ur:Percentage>50</ur:Percentage>
+</ur:Share>
+</ur:ShareHolder>
+<ur:ShareHolder>
+<ur:RecordNumber>92079789</ur:RecordNumber>
+<ur:Title>Malvesa Rita</ur:Title>
+<ur:NaturalPerson>
+<ur:PersonFullName>
+<pers:LastName>Malvesa</pers:LastName>
+<pers:FirstName>Rita</pers:FirstName>
+</ur:PersonFullName>
+<ur:PersonCode>21057510419</ur:PersonCode>
+<ur:AddressCommon>
+<ur:LatvianAddress>
+<ur:ARCode>100000000</ur:ARCode>
+</ur:LatvianAddress>
+</ur:AddressCommon>
+</ur:NaturalPerson>
+<ur:RegistrationDate>2011-03-31</ur:RegistrationDate>
+<ur:IsResponsible>false</ur:IsResponsible>
+<ur:TerminationDate>2011-10-21</ur:TerminationDate>
+<ur:CancellationDate>2011-10-27</ur:CancellationDate>
+<ur:DateRecordRegistered>2011-03-31</ur:DateRecordRegistered>
+<ur:LastChangeDateTime>2011-10-27T11:08:22Z</ur:LastChangeDateTime>
+<ur:Share>
+<ur:Count>1</ur:Count>
+<ur:Value>
+<ur:Sum>1</ur:Sum>
+<ur:Currency ivis:CodeListAgencyID="100009" ivis:CodeListID="ISO4217" ivis:CodeListVersionID="0.3">LVL</ur:Currency>
+</ur:Value>
+<ur:Total>
+<ur:Sum>1</ur:Sum>
+<ur:Currency ivis:CodeListAgencyID="100009" ivis:CodeListID="ISO4217" ivis:CodeListVersionID="0.3">LVL</ur:Currency>
+</ur:Total>
+<ur:Percentage>50</ur:Percentage>
+</ur:Share>
+</ur:ShareHolder>
+</ur:ShareHolderList>
+<ur:StatuteDate>2014-07-01</ur:StatuteDate>
+<ur:CertificateList>
+<ur:Certificate>
+<ur:RecordNumber>91035248</ur:RecordNumber>
+<ur:Index>K</ur:Index>
+<ur:Number>119275</ur:Number>
+<ur:CertificateForm CodeListCodeValue="V">Reģistrācijas apliecība, uz kuras norādīts vienotais vienpadsmitzīmju reģistrācijas kods</ur:CertificateForm>
+<ur:IssueDate>2011-10-27</ur:IssueDate>
+<ur:LastChangeDateTime>2011-10-27T11:09:15Z</ur:LastChangeDateTime>
+</ur:Certificate>
+<ur:Certificate>
+<ur:RecordNumber>91022459</ur:RecordNumber>
+<ur:Index>K</ur:Index>
+<ur:Number>105187</ur:Number>
+<ur:CertificateForm CodeListCodeValue="V">Reģistrācijas apliecība, uz kuras norādīts vienotais vienpadsmitzīmju reģistrācijas kods</ur:CertificateForm>
+<ur:IssueDate>2011-03-31</ur:IssueDate>
+<ur:RevokeDate>2011-10-27</ur:RevokeDate>
+<ur:LastChangeDateTime>2011-03-31T14:52:45Z</ur:LastChangeDateTime>
+</ur:Certificate>
+</ur:CertificateList>
+<ur:ChangesRecordList>
+<ur:ChangesRecord>
+<ur:RecordNumber>
+100119851</ur:RecordNumber>
+<ur:Date>2011-10-27</ur:Date>
+<ur:ChangeForm>
+<ur:Register>false</ur:Register>
+<ur:Official>true</ur:Official>
+<ur:LegalName>true</ur:LegalName>
+<ur:FixedCapital>false</ur:FixedCapital>
+<ur:Address>true</ur:Address>
+<ur:Members>true</ur:Members>
+<ur:LegalForm>false</ur:LegalForm>
+<ur:WorkField>false</ur:WorkField>
+<ur:SecurityMeans>false</ur:SecurityMeans>
+<ur:Procuras>false</ur:Procuras>
+<ur:Branches>false</ur:Branches>
+<ur:Other>true</ur:Other>
+</ur:ChangeForm>
+<ur:Notary CodeListCodeValue="E5">Kancāne Evija</ur:Notary>
+<ur:ChangeReason CodeListCodeValue=" "/>
+</ur:ChangesRecord>
+<ur:ChangesRecord>
+<ur:RecordNumber>
+100312355</ur:RecordNumber>
+<ur:Date>2014-07-11</ur:Date>
+<ur:ChangeForm>
+<ur:Register>false</ur:Register>
+<ur:Official>true</ur:Official>
+<ur:LegalName>true</ur:LegalName>
+<ur:FixedCapital>true</ur:FixedCapital>
+<ur:Address>true</ur:Address>
+<ur:Members>true</ur:Members>
+<ur:LegalForm>false</ur:LegalForm>
+<ur:WorkField>false</ur:WorkField>
+<ur:SecurityMeans>false</ur:SecurityMeans>
+<ur:Procuras>false</ur:Procuras>
+<ur:Branches>false</ur:Branches>
+<ur:Other>true</ur:Other>
+</ur:ChangeForm>
+<ur:Notary CodeListCodeValue="03">Bibiks Filips</ur:Notary>
+<ur:ChangeReason CodeListCodeValue=" "/>
+</ur:ChangesRecord>
+<ur:ChangesRecord>
+<ur:RecordNumber>
+100317184</ur:RecordNumber>
+<ur:Date>2014-08-05</ur:Date>
+<ur:ChangeForm>
+<ur:Register>false</ur:Register>
+<ur:Official>true</ur:Official>
+<ur:LegalName>false</ur:LegalName>
+<ur:FixedCapital>false</ur:FixedCapital>
+<ur:Address>false</ur:Address>
+<ur:Members>true</ur:Members>
+<ur:LegalForm>false</ur:LegalForm>
+<ur:WorkField>false</ur:WorkField>
+<ur:SecurityMeans>false</ur:SecurityMeans>
+<ur:Procuras>false</ur:Procuras>
+<ur:Branches>false</ur:Branches>
+<ur:Other>true</ur:Other>
+</ur:ChangeForm>
+<ur:Notary CodeListCodeValue="13">Suhanova Olga</ur:Notary>
+<ur:ChangeReason CodeListCodeValue=" "/>
+</ur:ChangesRecord>
+</ur:ChangesRecordList>
+<ur:HistoricalAddressList>
+<ur:HistoricalAddress>
+<ur:LatvianAddress>
+<ur:ARCode>105095371</ur:ARCode>
+<ur:AddressRegistered>Rīga, Stokholmas iela 17A</ur:AddressRegistered>
+</ur:LatvianAddress>
+<ur:RecordNumber>90159384</ur:RecordNumber>
+<ur:DateRegistered>2014-07-11</ur:DateRegistered>
+<ur:ChangeReason/>
+<ur:LastChangeDateTime>2014-07-11T10:27:41Z</ur:LastChangeDateTime>
+</ur:HistoricalAddress>
+<ur:HistoricalAddress>
+<ur:LatvianAddress>
+<ur:ARCode>100000000</ur:ARCode>
+<ur:AddressRegistered>Salaspils nov., Salaspils, Enerģētiķu iela 7-76</ur:AddressRegistered>
+</ur:LatvianAddress>
+<ur:RecordNumber>90122356</ur:RecordNumber>
+<ur:DateRegistered>2011-10-27</ur:DateRegistered>
+<ur:ChangeReason/>
+<ur:LastChangeDateTime>2011-10-27T11:08:22Z</ur:LastChangeDateTime>
+</ur:HistoricalAddress>
+</ur:HistoricalAddressList>
+<ur:HistoricalNameList>
+<ur:HistoricalName>
+<ur:RecordNumber>90110830</ur:RecordNumber>
+<ur:LegalEntityName>
+<ur:FirstPart>Sabiedrība ar ierobežotu atbildību</ur:FirstPart>
+<ur:ShortName>AS PROJEKTS UN DIZAINS</ur:ShortName>
+<ur:NotQuoted>true</ur:NotQuoted>
+<ur:NameRegistered>Sabiedrība ar ierobežotu atbildību &quot;AS PROJEKTS UN DIZAINS&quot;</ur:NameRegistered>
+</ur:LegalEntityName>
+<ur:DateRegistered>2014-07-11</ur:DateRegistered>
+<ur:LastChangeDateTime>2014-07-11T10:30:14Z</ur:LastChangeDateTime>
+</ur:HistoricalName>
+<ur:HistoricalName>
+<ur:RecordNumber>90103879</ur:RecordNumber>
+<ur:LegalEntityName>
+<ur:FirstPart>Sabiedrība ar ierobežotu atbildību</ur:FirstPart>
+<ur:ShortName>Active tour</ur:ShortName>
+<ur:NotQuoted>true</ur:NotQuoted>
+<ur:NameRegistered>Sabiedrība ar ierobežotu atbildību &quot;Active tour&quot;</ur:NameRegistered>
+</ur:LegalEntityName>
+<ur:DateRegistered>2011-10-27</ur:DateRegistered>
+<ur:LastChangeDateTime>2011-10-27T11:10:26Z</ur:LastChangeDateTime>
+</ur:HistoricalName>
+</ur:HistoricalNameList>
+</ur:LegalEntityExtenedStructure>
